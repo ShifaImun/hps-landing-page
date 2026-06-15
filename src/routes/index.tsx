@@ -116,9 +116,9 @@ function Hero() {
             transition={{ duration: 1.2, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
             className="mt-8 font-serif text-[clamp(3.2rem,8vw,7.5rem)] leading-[0.92] tracking-tight text-balance"
           >
-            <span className="text-foreground/90">A convening of</span>
+            <span className="text-foreground/90">HPSMUN26</span>
             <br />
-            <span className="text-foreground">young statecraft.</span>
+            <span className="text-foreground">25 — 26 Jul 2026</span>
           </motion.h1>
 
           <motion.p
