@@ -1,6 +1,7 @@
 {
   "include": [
     "next-env.d.ts",
+    "*.d.ts",
     ".next/types/**/*.ts",
     "app/**/*.ts",
     "app/**/*.tsx",

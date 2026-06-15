@@ -910,13 +910,7 @@ function Footer() {
   );
 }
 
-function FooterCol({
-  title,
-  items,
-}: {
-  title: string;
-  items: { label: string; href: string }[];
-}) {
+function FooterCol({ title, items }: { title: string; items: { label: string; href: string }[] }) {
   return (
     <div className="md:col-span-2 lg:col-span-2 md:col-start-auto">
       <div className="text-[10px] tracking-eyebrow uppercase text-gold">{title}</div>
